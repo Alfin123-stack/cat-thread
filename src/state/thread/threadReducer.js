@@ -13,6 +13,7 @@ import {
 } from './threadThunks';
 
 const initialState = {
+  threads: [],
   selectedThread: null,
   thread: null,
   comments: [],
