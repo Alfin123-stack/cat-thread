@@ -39,7 +39,7 @@ function Logo() {
   return (
     <Header>
       <CatIcon />
-      <LogoText>Cat Thread</LogoText>
+      <LogoText>Cat Thread App</LogoText>
     </Header>
   );
 }
