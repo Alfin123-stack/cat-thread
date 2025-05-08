@@ -5,9 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "cypress:run": "cypress run",
-    "ci:test": "start-server-and-test dev http://localhost:5173 cypress:run",
-    "build": "vite build",
+    "ci:test": "vitest --no-watch && start-server-and-test dev http://localhost:5173 'cypress run'",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
